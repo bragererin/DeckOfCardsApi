@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DeckOfCardsApi</name>
+    </assembly>
+    <members>
+        <member name="M:DeckOfCardsApi.BusinessLogic.IBusinessLogic.GetNewAsync">
+            <summary>
+            Retrieves a new deck of cards.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DeckOfCardsApi.BusinessLogic.IBusinessLogic.GetNewAsync(System.Boolean)">
+            <summary>
+            Retrieves a new deck of cards.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DeckOfCardsApi.BusinessLogic.IBusinessLogic.DrawNewCardAsync(System.Int32)">
+            <summary>
+            Retrieves a new card or cards from the deck.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DeckOfCardsApi.BusinessLogic.IBusinessLogic.DrawNewCardAsync(System.String,System.Int32)">
+            <summary>
+            Retrieves a new card or cards from a specific deck.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DeckOfCardsApi.Client.DeckOfCardsApi.IDeckOfCardsApiClient.GetNewAsync">
+            <summary>
+            Returns a new deck of cards.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DeckOfCardsApi.Client.DeckOfCardsApi.IDeckOfCardsApiClient.GetNewAsync(System.String)">
+            <summary>
+            Returns a new deck of cards.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DeckOfCardsApi.Client.DeckOfCardsApi.IDeckOfCardsApiClient.DrawNewCardAsync(System.String)">
+            <summary>
+            Returns a new card from a new deck.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DeckOfCardsApi.Client.DeckOfCardsApi.IDeckOfCardsApiClient.DrawNewCardAsync(System.String,System.String)">
+            <summary>
+            Returns a new card from a new deck.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DeckOfCardsApi.Controllers.Controller.GetNewDeckAsync">
+            <summary>
+                Returns a new deck of cards.
+            </summary>
+            <returns></returns>
+            <response code="200">OK</response>
+        </member>
+        <member name="M:DeckOfCardsApi.Controllers.Controller.GetNewDeckAsync(System.Boolean)">
+            <summary>
+                Returns a new deck of cards.
+            </summary>
+            <returns></returns>
+            <response code="200">OK</response>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:DeckOfCardsApi.Controllers.Controller.DrawNewCardAsync(System.Int32)" -->
+        <!-- Badly formed XML comment ignored for member "M:DeckOfCardsApi.Controllers.Controller.DrawNewCardAsync(System.String,System.Int32)" -->
+        <member name="T:Refit.Implementation.Generated">
+            <inheritdoc />
+        </member>
+        <member name="T:Refit.Implementation.Generated.DeckOfCardsApiClientDeckOfCardsApiIDeckOfCardsApiClient">
+            <inheritdoc />
+        </member>
+        <member name="P:Refit.Implementation.Generated.DeckOfCardsApiClientDeckOfCardsApiIDeckOfCardsApiClient.Client">
+            <inheritdoc />
+        </member>
+        <member name="M:Refit.Implementation.Generated.DeckOfCardsApiClientDeckOfCardsApiIDeckOfCardsApiClient.#ctor(System.Net.Http.HttpClient,Refit.IRequestBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Refit.Implementation.Generated.DeckOfCardsApiClientDeckOfCardsApiIDeckOfCardsApiClient.GetNewAsync">
+            <inheritdoc />
+        </member>
+        <member name="M:Refit.Implementation.Generated.DeckOfCardsApiClientDeckOfCardsApiIDeckOfCardsApiClient.GetNewAsync(System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:Refit.Implementation.Generated.DeckOfCardsApiClientDeckOfCardsApiIDeckOfCardsApiClient.DrawNewCardAsync(System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:Refit.Implementation.Generated.DeckOfCardsApiClientDeckOfCardsApiIDeckOfCardsApiClient.DrawNewCardAsync(System.String,System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:Refit.Implementation.Generated.DeckOfCardsApiClientDeckOfCardsApiIDeckOfCardsApiClient.DeckOfCardsApi#Client#DeckOfCardsApi#IDeckOfCardsApiClient#GetNewAsync">
+            <inheritdoc />
+        </member>
+        <member name="M:Refit.Implementation.Generated.DeckOfCardsApiClientDeckOfCardsApiIDeckOfCardsApiClient.DeckOfCardsApi#Client#DeckOfCardsApi#IDeckOfCardsApiClient#GetNewAsync(System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:Refit.Implementation.Generated.DeckOfCardsApiClientDeckOfCardsApiIDeckOfCardsApiClient.DeckOfCardsApi#Client#DeckOfCardsApi#IDeckOfCardsApiClient#DrawNewCardAsync(System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:Refit.Implementation.Generated.DeckOfCardsApiClientDeckOfCardsApiIDeckOfCardsApiClient.DeckOfCardsApi#Client#DeckOfCardsApi#IDeckOfCardsApiClient#DrawNewCardAsync(System.String,System.String)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
